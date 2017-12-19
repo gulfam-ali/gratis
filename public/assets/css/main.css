@@ -1,0 +1,44 @@
+body {
+    font-family: 'Lato';
+}
+
+a:focus, a:hover {
+    text-decoration: none !important;
+}
+
+.link-color{
+  color: #07f !important;
+  cursor: pointer;
+}
+
+.bg-light {
+    background-color: #ffff !important;
+}
+
+#logo-name{
+  vertical-align: middle;
+  text-shadow: 1pt 0pt 1pt #afafaf;
+  color: #404040;
+  font-weight: bold;
+}
+
+
+.fa-btn {
+    margin-right: 6px;
+}
+
+.card {
+
+  text-align: center;
+  background: #f7f7f7;
+  color: #777;
+  border-radius: 0.2em;
+  cursor: pointer;
+    margin-bottom: 1em;
+}
+
+.card:hover {
+    background: #dcf4ff;
+    color: #005598;
+    box-shadow: 0pt 2pt 4pt #ddd;
+}
