@@ -1,25 +1,25 @@
 @extends('layouts.app')
-
+@section('title', 'Gratis Scout')
 @section('content')
       <div class="row">
-            <div class="col-md-12" style=" border-radius: 0.2em;   padding: 1em; background: url({{ url('assets/img/ferrari.jpg') }}); background-size:cover;" >
+            <div class="col-md-12" style="    padding: 1em; background: url({{ url('assets/img/ferrari.jpg') }}); background-size:cover;" >
                 <div class="row">
                     <div class="col-md-6" style="background: #fffffff0; padding: 0em;">
                       <ul class="nav nav-tabs">
                           <li class="nav-item">
-                            <a class="nav-link active" href="#">Personawagon</a>
+                            <a class="nav-link active" href="#"><img src="{{ url('assets/img/icons/car-blue.png') }}" style="width: 36px;"></a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="#">Nutzfahrzeug</a>
+                            <a class="nav-link" href="#"><img src="{{ url('assets/img/icons/truck-black.png') }}" style="width: 36px;"></a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="#">Truck</a>
+                            <a class="nav-link" href="#"><img src="{{ url('assets/img/icons/van-black.png') }}" style="width: 36px;"></a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="#">Wohnwagen</a>
+                            <a class="nav-link" href="#"><img src="{{ url('assets/img/icons/wagon-black.png') }}" style="width: 36px;"></a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="#">Anhaenger</a>
+                            <a class="nav-link" href="#"><img src="{{ url('assets/img/icons/pendant-black.png') }}" style="width: 36px;"></a>
                           </li>
                       </ul>
 
