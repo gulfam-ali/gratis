@@ -66,9 +66,24 @@
   </div>
 
 
-
-    @yield('content')
-
+<div class="row">
+    <div class="col-md-2"></div>
+        <div class="col-md-8">
+            @yield('content')
+        </div>
+    <div class="col-md-2"></div>
+</div>
+<div class="row footer-wrapper" style="     margin-top: 1em;   padding: 1em 0.5em; border-top: 0.1pt solid #eaeaea;color: #888;">
+    <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <div class="row">
+                <div class="col-md-12">
+                    &copy; Gratisscout Inc. All Rights Reserved.
+                </div>
+            </div>
+        </div>
+    <div class="col-md-2"></div>
+</div>
     <!-- JavaScripts -->
 
     <script src="{{ url('assets/bs/jquery-3.2.1.slim.min.js') }} " ></script>
